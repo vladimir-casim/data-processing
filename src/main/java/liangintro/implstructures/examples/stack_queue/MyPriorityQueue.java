@@ -1,6 +1,6 @@
 package liangintro.implstructures.examples.stack_queue;
 
-import ch23_sorting.examples.Heap;
+import liangintro.sorting.examples.Heap;
 
 public class MyPriorityQueue<E extends Comparable<E>>  {
     private Heap<E> heap = new Heap<E>();

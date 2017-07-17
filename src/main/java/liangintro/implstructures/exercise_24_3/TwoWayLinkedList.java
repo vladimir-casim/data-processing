@@ -1,7 +1,6 @@
 package liangintro.implstructures.exercise_24_3;
 
-
-import ch24_implstructures.examples.list.MyList;
+import liangintro.implstructures.examples.list.MyList;
 
 import java.util.Iterator;
 
