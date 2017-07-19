@@ -22,7 +22,7 @@ public class ReverseTheString {
             return s;
         }
         String revStr = reverseString3(s.substring(1));
-        return s + revStr;
+        return revStr + s.charAt(0);
     }
 
     public static void main(String[] args) {
