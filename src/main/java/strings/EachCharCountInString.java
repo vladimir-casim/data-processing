@@ -3,7 +3,9 @@ package strings;
 import java.util.HashMap;
 
 /**
- * Count Occurrences Of Each Character In String :
+ * Count Occurrences Of Each Character In String
+ * To find the number of occurrences of each character in a given string, we have used HashMap with character as a key and it’s occurrences as a value.
+ * First, we convert the given string to char array and check each character one by one. And update it’s count in HashMap.
  */
 public class EachCharCountInString {
 
