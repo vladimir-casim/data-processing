@@ -1,7 +1,11 @@
-package liangintro.arrays.exercise_03;
+package liangintro.arrays.exercises;
 
 import java.util.Scanner;
 
+/*
+	(Count occurrence of numbers) Write a program that reads the integers between 1
+	and 100 and counts the occurrences of each. Assume the input ends with 0.
+ */
 public class Exercise_03 {
 
 	public static void main(String[] args) {
@@ -11,11 +15,11 @@ public class Exercise_03 {
 		
 		System.out.println("Enter 10 number between 1 and 100: ");
 		
-		for (int i = 0; i<10; i++) {
+		for (int i = 0; i < 10; i++) {
 			numbers[i] = input.nextInt();
 		}
 		
-		for (int i = 0; i<10; i++) {
+		for (int i = 0; i < 10; i++) {
 			//numbers[i]
 		}
 	}

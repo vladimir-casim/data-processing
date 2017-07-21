@@ -1,18 +1,18 @@
-package liangintro.arrays.exercise_01;
+package liangintro.arrays.exercises;
 
 import java.util.Scanner;
 
 /*
-(Assign grades) Write a program that reads student scores, gets the best score,
-and then assigns grades based on the following scheme:
-Grade is A if score is >= best - 10;
-Grade is B if score is >= best - 20;
-Grade is C if score is >= best - 30;
-Grade is D if score is >= best - 40;
-Grade is F otherwise.
-The program prompts the user to enter the total number of students, then prompts
-the user to enter all of the scores, and concludes by displaying the grades. Here
-is a sample run:
+	(Assign grades) Write a program that reads student scores, gets the best score,
+	and then assigns grades based on the following scheme:
+	Grade is A if score is >= best - 10;
+	Grade is B if score is >= best - 20;
+	Grade is C if score is >= best - 30;
+	Grade is D if score is >= best - 40;
+	Grade is F otherwise.
+	The program prompts the user to enter the total number of students, then prompts
+	the user to enter all of the scores, and concludes by displaying the grades. Here
+	is a sample run:
 */
 public class Exercise_01 {
 	
@@ -25,7 +25,7 @@ public class Exercise_01 {
 		
 		System.out.println("Enter " + scores.length + " scores: ");
 		
-		for (int i=0; i<scores.length; i++) {
+		for (int i = 0; i < scores.length; i++) {
 			scores[i] = input.nextInt();
 		}
 		

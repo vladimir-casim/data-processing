@@ -1,11 +1,13 @@
-package liangintro.arrays.exercise_08;
+package liangintro.arrays.exercises;
 
-/*(Average an array) Write two overloaded methods that return the average of an
+/*
+(Average an array) Write two overloaded methods that return the average of an
 array with the following headers:
 public static int average(int[] array)
 public static double average(double[] array)
 Write a test program that prompts the user to enter ten double values, invokes this
-method, and displays the average valu*/
+method, and displays the average valu
+*/
 public class Exercise_08 {
 
 	public static void main(String[] args) {
