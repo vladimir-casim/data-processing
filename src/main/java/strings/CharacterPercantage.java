@@ -1,5 +1,7 @@
 package strings;
 
+import java.text.DecimalFormat;
+
 /**
  Write a java program to find the percentage of uppercase letters, lowercase letters, digits and other special characters(including space) in the given string. F
 
@@ -36,6 +38,13 @@ public class CharacterPercantage {
         double digitsPercentage = (digits * 100) / totalChars;
         double othersPercentage = (others * 100) / totalChars;
 
+        DecimalFormat formatter = new DecimalFormat("##.##");
+        System.out.println("In '" + inputString + "' : ");
+        System.out.println("Uppercase letters are " + formatter.format(upperCaseLettersPercentage) + "% ");
+        System.out.println("Lowercase letters are " + formatter.format(lowerCaseLettersPercantege) + "%");
+        System.out.println("Digits Are " + formatter.format(digitsPercentage) + "%");
+        System.out.println("Other Characters Are " + formatter.format(othersPercentage) + "%");
+        System.out.println("-----------------------------");
     }
 
     public static void main(String[] args) {
