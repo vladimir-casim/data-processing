@@ -1,4 +1,4 @@
-package liangintro.arrays.exercises;
+package liangintro.arrays;
 
 /*
 (Average an array) Write two overloaded methods that return the average of an

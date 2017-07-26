@@ -1,4 +1,4 @@
-package liangintro.arrays.exercises;
+package liangintro.arrays;
 
 import java.util.Scanner;
 
