@@ -21,14 +21,14 @@ public class RandomNumbers {
         randomNumber = min + (int)(Math.random() * ((max - min) + 1));
         System.out.println(randomNumber);
 
-        Random rand = new Random(100);
+        Random random = new Random(100);
 
         // nextInt is normally exclusive of the top value,
         // so add 1 to make it inclusive
-        randomNumber = rand.nextInt((max - min) + 1) + min;
+        randomNumber = random.nextInt((max - min) + 1) + min;
         System.out.println(randomNumber);
 
-        randomNumber = rand.nextInt(max);
+        randomNumber = random.nextInt(max);
         System.out.println(randomNumber);
 
 
