@@ -30,6 +30,8 @@ public class RandomNumbers {
 
         randomNumber = rand.nextInt(max);
         System.out.println(randomNumber);
+
+
     }
 
 }
