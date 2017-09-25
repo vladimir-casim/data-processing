@@ -3,16 +3,21 @@ package liangintro.mapset;
 import java.util.Set;
 
 public interface MyMap<K, V> {
+
     public void clear();
-    public void containsKey(K key);
-    public void containsValue(V value);
-    public Set<Entry<K, V>> entrySet();
+    public void remove(K key);
+
+    public boolean containsKey(K key);
+    public boolean containsValue(V value);
+    public boolean isEmpty();
+
     public V get(K key);
     public V put(K key, V value);
-    public void remove(K key);
-    public boolean isEmpty();
+
     public Set<K> keySet();
     public Set<V> values();
+    public Set<Entry<K, V>> entrySet();
+
     public int size();
 
 

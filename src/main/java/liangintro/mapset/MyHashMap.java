@@ -4,13 +4,22 @@ import java.util.LinkedList;
 import java.util.Set;
 
 public class MyHashMap<K, V> implements MyMap<K, V> {
-    private static int DEFAULT_INITIAL_CAPACITY = 4 ;
+    private static int DEFAULT_INITIAL_CAPACITY = 4;
     private static int MAXIMUM_CAPACITY = 1 << 30;
     private int capacity;
     private static float DEFAULT_MAX_LOAD_FACTOR = 0.75f;
     private float loadFactorThreshold;
     private int size = 0;
-    LinkedList<Entry<K,V>>[] table;
+    LinkedList<Entry<K, V>>[] table;
+
+    public MyHashMap() {
+    }
+
+    public MyHashMap(int capacity, float loadFactorThreshold) {
+        this.capacity = capacity;
+        this.loadFactorThreshold = loadFactorThreshold;
+    }
+
 
     @Override
     public void clear() {
@@ -18,33 +27,18 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
     }
 
     @Override
-    public Set<Entry<K, V>> entrySet() {
-        return null;
-    }
-
-    @Override
-    public void containsKey(Object key) {
+    public void remove(K key) {
 
     }
 
     @Override
-    public void containsValue(Object value) {
-
+    public boolean containsKey(K key) {
+        return false;
     }
 
     @Override
-    public Object get(Object key) {
-        return null;
-    }
-
-    @Override
-    public Object put(Object key, Object value) {
-        return null;
-    }
-
-    @Override
-    public void remove(Object key) {
-
+    public boolean containsValue(V value) {
+        return false;
     }
 
     @Override
@@ -53,12 +47,27 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
     }
 
     @Override
-    public Set keySet() {
+    public V get(K key) {
         return null;
     }
 
     @Override
-    public Set values() {
+    public V put(K key, V value) {
+        return null;
+    }
+
+    @Override
+    public Set<K> keySet() {
+        return null;
+    }
+
+    @Override
+    public Set<V> values() {
+        return null;
+    }
+
+    @Override
+    public Set<Entry<K, V>> entrySet() {
         return null;
     }
 
